@@ -1,4 +1,4 @@
-FROM "ubuntu-latest"
+FROM rust:1.69
 
 # Install grcov
 RUN cargo install --force grcov
