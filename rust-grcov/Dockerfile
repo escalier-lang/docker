@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM rustlang/rust
 
 # Install grcov
 RUN cargo install --force grcov
