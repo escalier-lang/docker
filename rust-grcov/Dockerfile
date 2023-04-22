@@ -1,5 +1,9 @@
 FROM rust:1.69
 
+# Install nodejs
+RUN apt-get update && apt-get install -y \
+    nodejs
+
 # Install yarn
 RUN npm install -g yarn
 
