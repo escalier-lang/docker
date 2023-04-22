@@ -1,5 +1,8 @@
 FROM rust:1.69
 
+# Install yarn
+RUN npm install -g yarn
+
 # Install grcov
 RUN cargo install --force grcov
 
